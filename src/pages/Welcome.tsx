@@ -244,6 +244,13 @@ export default function Welcome() {
               <>
                 <AuthDialog mode="login" onDone={start} />
                 <AuthDialog mode="register" onDone={start} />
+                <Button
+                  className="w-full rounded-xl h-12 bg-white text-foreground border border-input hover:bg-muted"
+                  onClick={start}
+                  variant="outline"
+                >
+                  Modo Demo
+                </Button>
               </>
             ) : (
               <Button
