@@ -10,7 +10,6 @@ Active development is carried out in a separate development branch.
 
 ## Repository Structure
 - `main` → Stable version (demos, reviews, presentations)
-- `dev` → Active development and ongoing implementation
 
 ## Access & Usage
 This repository is private and intended exclusively for internal development purposes.
